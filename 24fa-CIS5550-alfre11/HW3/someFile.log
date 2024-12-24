@@ -1,0 +1,354 @@
+2024-09-27 17:33:15.066 main  Port set to: 8080
+2024-09-27 17:33:15.071 main  secure port number set to: 8443
+2024-09-27 17:33:15.073 main  GET route registered: /echo/:x
+2024-09-27 17:33:15.074 main  GET route registered: /session
+2024-09-27 17:33:15.074 main  GET route registered: /perm/:x
+2024-09-27 17:33:15.087 Thread-3Server listening
+2024-09-27 17:33:15.469 Thread-2Server listening
+2024-09-27 17:33:18.104 Thread-5Client connected
+2024-09-27 17:33:18.384 Thread-5Request line: GET /echo/1366 HTTP/1.1
+2024-09-27 17:33:18.384 Thread-5splitHeader[0]: GET /echo/1366 HTTP/1.1
+2024-09-27 17:33:18.385 Thread-5splitHeader[0]: User-Agent
+2024-09-27 17:33:18.385 Thread-5splitHeader[1]:  Java/22.0.2
+2024-09-27 17:33:18.385 Thread-5splitHeader[0]: Host
+2024-09-27 17:33:18.385 Thread-5splitHeader[1]:  localhost
+2024-09-27 17:33:18.385 Thread-5splitHeader[0]: Accept
+2024-09-27 17:33:18.385 Thread-5splitHeader[1]:  */*
+2024-09-27 17:33:18.385 Thread-5splitHeader[0]: Connection
+2024-09-27 17:33:18.385 Thread-5splitHeader[1]:  keep-alive
+2024-09-27 17:33:18.385 Thread-5content length: 0
+2024-09-27 17:33:18.385 Thread-5command: GET
+2024-09-27 17:33:18.385 Thread-5requested URL: /echo/1366
+2024-09-27 17:33:18.386 Thread-5Content Type: 
+2024-09-27 17:33:18.386 Thread-5url matches route length
+2024-09-27 17:33:18.386 Thread-5/echo/:x : /echo/1366
+2024-09-27 17:33:18.391 Thread-5match 0: , 
+2024-09-27 17:33:18.391 Thread-5match 1: echo, echo
+2024-09-27 17:33:18.391 Thread-5match 2: :x, 1366
+2024-09-27 17:33:18.391 Thread-5param x : 1366
+2024-09-27 17:33:18.391 Thread-5route pattern found: /echo/:x
+2024-09-27 17:33:18.393 Thread-5return from handle: 1366
+2024-09-27 17:33:18.393 Thread-5request handled
+2024-09-27 17:33:18.393 Thread-5is there a new session: false
+2024-09-27 17:33:18.394 Thread-5Request Line: HTTP/1.1 200 OK
+
+2024-09-27 17:33:18.394 Thread-5body added from handle return: 1366
+2024-09-27 17:33:18.394 Thread-5url matches route length
+2024-09-27 17:33:18.394 Thread-5/perm/:x : /echo/1366
+2024-09-27 17:33:18.394 Thread-5match 0: , 
+2024-09-27 17:33:18.394 Thread-5match 1: perm, echo
+2024-09-27 17:33:18.394 Thread-5pattern does not match
+2024-09-27 17:33:18.396 Thread-5newFilePath: null/echo/1366
+2024-09-27 17:33:18.399 Thread-6Client connected
+2024-09-27 17:33:18.399 Thread-5ERROR: Not Found
+2024-09-27 17:33:18.400 Thread-5ERROR: Socket is closed
+2024-09-27 17:33:18.407 Thread-6Request line: GET /echo/3991 HTTP/1.1
+2024-09-27 17:33:18.407 Thread-6splitHeader[0]: GET /echo/3991 HTTP/1.1
+2024-09-27 17:33:18.407 Thread-6splitHeader[0]: Host
+2024-09-27 17:33:18.407 Thread-6splitHeader[1]:  localhost
+2024-09-27 17:33:18.407 Thread-6content length: 0
+2024-09-27 17:33:18.407 Thread-6command: GET
+2024-09-27 17:33:18.407 Thread-6requested URL: /echo/3991
+2024-09-27 17:33:18.407 Thread-6Content Type: 
+2024-09-27 17:33:18.407 Thread-6url matches route length
+2024-09-27 17:33:18.407 Thread-6/echo/:x : /echo/3991
+2024-09-27 17:33:18.408 Thread-6match 0: , 
+2024-09-27 17:33:18.408 Thread-6match 1: echo, echo
+2024-09-27 17:33:18.408 Thread-6match 2: :x, 3991
+2024-09-27 17:33:18.408 Thread-6param x : 3991
+2024-09-27 17:33:18.408 Thread-6route pattern found: /echo/:x
+2024-09-27 17:33:18.408 Thread-6return from handle: 3991
+2024-09-27 17:33:18.408 Thread-6request handled
+2024-09-27 17:33:18.408 Thread-6is there a new session: false
+2024-09-27 17:33:18.408 Thread-6Request Line: HTTP/1.1 200 OK
+
+2024-09-27 17:33:18.408 Thread-6body added from handle return: 3991
+2024-09-27 17:33:18.409 Thread-6url matches route length
+2024-09-27 17:33:18.409 Thread-6/perm/:x : /echo/3991
+2024-09-27 17:33:18.409 Thread-6match 0: , 
+2024-09-27 17:33:18.409 Thread-6match 1: perm, echo
+2024-09-27 17:33:18.409 Thread-6pattern does not match
+2024-09-27 17:33:18.409 Thread-6newFilePath: null/echo/3991
+2024-09-27 17:33:18.410 Thread-6ERROR: Not Found
+2024-09-27 17:33:18.410 Thread-6ERROR: Socket is closed
+2024-09-27 17:33:18.411 Thread-7Client connected
+2024-09-27 17:33:18.412 Thread-7Request line: GET /session HTTP/1.1
+2024-09-27 17:33:18.412 Thread-7splitHeader[0]: GET /session HTTP/1.1
+2024-09-27 17:33:18.412 Thread-7splitHeader[0]: Host
+2024-09-27 17:33:18.412 Thread-7splitHeader[1]:  localhost
+2024-09-27 17:33:18.412 Thread-7content length: 0
+2024-09-27 17:33:18.412 Thread-7command: GET
+2024-09-27 17:33:18.412 Thread-7requested URL: /session
+2024-09-27 17:33:18.412 Thread-7Content Type: 
+2024-09-27 17:33:18.412 Thread-7url matches route length
+2024-09-27 17:33:18.412 Thread-7/session : /session
+2024-09-27 17:33:18.412 Thread-7match 0: , 
+2024-09-27 17:33:18.413 Thread-7match 1: session, session
+2024-09-27 17:33:18.413 Thread-7route pattern found: /session
+2024-09-27 17:33:18.416 Thread-7new session created: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:18.417 Thread-7return from handle: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:18.417 Thread-7request handled
+2024-09-27 17:33:18.417 Thread-7is there a new session: true
+2024-09-27 17:33:18.417 Thread-7response header called
+2024-09-27 17:33:18.417 Thread-7Request Line: HTTP/1.1 200 OK
+
+2024-09-27 17:33:18.417 Thread-7header: Set-Cookie: : SessionID=vSRphj150--J5TAwpMeN
+2024-09-27 17:33:18.417 Thread-7body added from handle return: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:18.418 Thread-7newFilePath: null/session
+2024-09-27 17:33:18.418 Thread-7ERROR: Not Found
+2024-09-27 17:33:18.418 Thread-7ERROR: Socket is closed
+2024-09-27 17:33:18.420 Thread-8Client connected
+2024-09-27 17:33:18.426 Thread-8Request line: GET /perm/wQKePCZjy HTTP/1.1
+2024-09-27 17:33:18.426 Thread-8splitHeader[0]: GET /perm/wQKePCZjy HTTP/1.1
+2024-09-27 17:33:18.426 Thread-8splitHeader[0]: Host
+2024-09-27 17:33:18.426 Thread-8splitHeader[1]:  localhost
+2024-09-27 17:33:18.426 Thread-8content length: 0
+2024-09-27 17:33:18.426 Thread-8command: GET
+2024-09-27 17:33:18.426 Thread-8requested URL: /perm/wQKePCZjy
+2024-09-27 17:33:18.426 Thread-8Content Type: 
+2024-09-27 17:33:18.426 Thread-8url matches route length
+2024-09-27 17:33:18.426 Thread-8/echo/:x : /perm/wQKePCZjy
+2024-09-27 17:33:18.426 Thread-8match 0: , 
+2024-09-27 17:33:18.426 Thread-8match 1: echo, perm
+2024-09-27 17:33:18.427 Thread-8pattern does not match
+2024-09-27 17:33:18.427 Thread-8url matches route length
+2024-09-27 17:33:18.427 Thread-8/perm/:x : /perm/wQKePCZjy
+2024-09-27 17:33:18.427 Thread-8match 0: , 
+2024-09-27 17:33:18.427 Thread-8match 1: perm, perm
+2024-09-27 17:33:18.427 Thread-8match 2: :x, wQKePCZjy
+2024-09-27 17:33:18.427 Thread-8param x : wQKePCZjy
+2024-09-27 17:33:18.427 Thread-8route pattern found: /perm/:x
+2024-09-27 17:33:18.427 Thread-8new session created: uMvTQ7VnKwlpG8zKqMfO
+2024-09-27 17:33:18.427 Thread-8return from handle: wQKePCZjy
+2024-09-27 17:33:18.427 Thread-8request handled
+2024-09-27 17:33:18.427 Thread-8is there a new session: true
+2024-09-27 17:33:18.427 Thread-8response header called
+2024-09-27 17:33:18.427 Thread-8Request Line: HTTP/1.1 200 OK
+
+2024-09-27 17:33:18.428 Thread-8header: Set-Cookie: : SessionID=uMvTQ7VnKwlpG8zKqMfO
+2024-09-27 17:33:18.428 Thread-8body added from handle return: wQKePCZjy
+2024-09-27 17:33:18.428 Thread-8newFilePath: null/perm/wQKePCZjy
+2024-09-27 17:33:18.428 Thread-8ERROR: Not Found
+2024-09-27 17:33:18.428 Thread-8ERROR: Socket is closed
+2024-09-27 17:33:18.429 Thread-9Client connected
+2024-09-27 17:33:18.435 Thread-9Request line: GET /perm/wQKePCZjy HTTP/1.1
+2024-09-27 17:33:18.435 Thread-9splitHeader[0]: GET /perm/wQKePCZjy HTTP/1.1
+2024-09-27 17:33:18.435 Thread-9splitHeader[0]: Host
+2024-09-27 17:33:18.435 Thread-9splitHeader[1]:  localhost
+2024-09-27 17:33:18.435 Thread-9splitHeader[0]: Cookie
+2024-09-27 17:33:18.435 Thread-9splitHeader[1]:  SessionID=uMvTQ7VnKwlpG8zKqMfO
+2024-09-27 17:33:18.436 Thread-9current time: 1727472798436
+2024-09-27 17:33:18.436 Thread-9last accessed: 1727472798427
+2024-09-27 17:33:18.436 Thread-9max interval: 1
+2024-09-27 17:33:18.436 Thread-9current session: cis5550.webserver.SessionImpl@134c1e9e
+2024-09-27 17:33:18.436 Thread-9current time: 1727472798436
+2024-09-27 17:33:18.436 Thread-9last accessed: 1727472798427
+2024-09-27 17:33:18.436 Thread-9max interval: 1
+2024-09-27 17:33:18.436 Thread-9content length: 0
+2024-09-27 17:33:18.437 Thread-9command: GET
+2024-09-27 17:33:18.437 Thread-9requested URL: /perm/wQKePCZjy
+2024-09-27 17:33:18.437 Thread-9Content Type: 
+2024-09-27 17:33:18.437 Thread-9url matches route length
+2024-09-27 17:33:18.437 Thread-9/echo/:x : /perm/wQKePCZjy
+2024-09-27 17:33:18.437 Thread-9match 0: , 
+2024-09-27 17:33:18.437 Thread-9match 1: echo, perm
+2024-09-27 17:33:18.437 Thread-9pattern does not match
+2024-09-27 17:33:18.437 Thread-9url matches route length
+2024-09-27 17:33:18.437 Thread-9/perm/:x : /perm/wQKePCZjy
+2024-09-27 17:33:18.437 Thread-9match 0: , 
+2024-09-27 17:33:18.437 Thread-9match 1: perm, perm
+2024-09-27 17:33:18.437 Thread-9match 2: :x, wQKePCZjy
+2024-09-27 17:33:18.437 Thread-9param x : wQKePCZjy
+2024-09-27 17:33:18.438 Thread-9route pattern found: /perm/:x
+2024-09-27 17:33:18.438 Thread-9prev session found
+2024-09-27 17:33:18.438 Thread-9return from handle: wQKePCZjy
+2024-09-27 17:33:18.438 Thread-9request handled
+2024-09-27 17:33:18.438 Thread-9is there a new session: false
+2024-09-27 17:33:18.438 Thread-9Request Line: HTTP/1.1 200 OK
+
+2024-09-27 17:33:18.438 Thread-9body added from handle return: wQKePCZjy
+2024-09-27 17:33:18.438 Thread-9newFilePath: null/perm/wQKePCZjy
+2024-09-27 17:33:18.438 Thread-9ERROR: Not Found
+2024-09-27 17:33:18.438 Thread-9ERROR: Socket is closed
+2024-09-27 17:33:18.440 Thread-10Client connected
+2024-09-27 17:33:18.441 Thread-10Request line: GET /perm/fMktNx HTTP/1.1
+2024-09-27 17:33:18.441 Thread-10splitHeader[0]: GET /perm/fMktNx HTTP/1.1
+2024-09-27 17:33:18.441 Thread-10splitHeader[0]: Host
+2024-09-27 17:33:18.441 Thread-10splitHeader[1]:  localhost
+2024-09-27 17:33:18.441 Thread-10content length: 0
+2024-09-27 17:33:18.441 Thread-10command: GET
+2024-09-27 17:33:18.441 Thread-10requested URL: /perm/fMktNx
+2024-09-27 17:33:18.441 Thread-10Content Type: 
+2024-09-27 17:33:18.441 Thread-10url matches route length
+2024-09-27 17:33:18.441 Thread-10/echo/:x : /perm/fMktNx
+2024-09-27 17:33:18.441 Thread-10match 0: , 
+2024-09-27 17:33:18.441 Thread-10match 1: echo, perm
+2024-09-27 17:33:18.441 Thread-10pattern does not match
+2024-09-27 17:33:18.441 Thread-10url matches route length
+2024-09-27 17:33:18.441 Thread-10/perm/:x : /perm/fMktNx
+2024-09-27 17:33:18.442 Thread-10match 0: , 
+2024-09-27 17:33:18.442 Thread-10match 1: perm, perm
+2024-09-27 17:33:18.442 Thread-10match 2: :x, fMktNx
+2024-09-27 17:33:18.442 Thread-10param x : fMktNx
+2024-09-27 17:33:18.442 Thread-10route pattern found: /perm/:x
+2024-09-27 17:33:18.442 Thread-10new session created: vCY-H1NlwJDIPkdygUdS
+2024-09-27 17:33:18.442 Thread-10return from handle: fMktNx
+2024-09-27 17:33:18.442 Thread-10request handled
+2024-09-27 17:33:18.442 Thread-10is there a new session: true
+2024-09-27 17:33:18.442 Thread-10response header called
+2024-09-27 17:33:18.442 Thread-10Request Line: HTTP/1.1 200 OK
+
+2024-09-27 17:33:18.442 Thread-10header: Set-Cookie: : SessionID=vCY-H1NlwJDIPkdygUdS
+2024-09-27 17:33:18.442 Thread-10body added from handle return: fMktNx
+2024-09-27 17:33:18.443 Thread-10newFilePath: null/perm/fMktNx
+2024-09-27 17:33:18.443 Thread-10ERROR: Not Found
+2024-09-27 17:33:18.443 Thread-10ERROR: Socket is closed
+2024-09-27 17:33:18.444 Thread-11Client connected
+2024-09-27 17:33:18.445 Thread-11Request line: GET /perm/fMktNx HTTP/1.1
+2024-09-27 17:33:18.445 Thread-11splitHeader[0]: GET /perm/fMktNx HTTP/1.1
+2024-09-27 17:33:18.445 Thread-11splitHeader[0]: Host
+2024-09-27 17:33:18.445 Thread-11splitHeader[1]:  localhost
+2024-09-27 17:33:18.445 Thread-11splitHeader[0]: Cookie
+2024-09-27 17:33:18.445 Thread-11splitHeader[1]:  SessionID=vCY-H1NlwJDIPkdygUdS
+2024-09-27 17:33:18.446 Thread-11current time: 1727472798445
+2024-09-27 17:33:18.446 Thread-11last accessed: 1727472798442
+2024-09-27 17:33:18.446 Thread-11max interval: 1
+2024-09-27 17:33:18.446 Thread-11current session: cis5550.webserver.SessionImpl@13fe730b
+2024-09-27 17:33:18.446 Thread-11current time: 1727472798446
+2024-09-27 17:33:18.446 Thread-11last accessed: 1727472798442
+2024-09-27 17:33:18.446 Thread-11max interval: 1
+2024-09-27 17:33:18.446 Thread-11content length: 0
+2024-09-27 17:33:18.446 Thread-11command: GET
+2024-09-27 17:33:18.446 Thread-11requested URL: /perm/fMktNx
+2024-09-27 17:33:18.446 Thread-11Content Type: 
+2024-09-27 17:33:18.446 Thread-11url matches route length
+2024-09-27 17:33:18.446 Thread-11/echo/:x : /perm/fMktNx
+2024-09-27 17:33:18.446 Thread-11match 0: , 
+2024-09-27 17:33:18.446 Thread-11match 1: echo, perm
+2024-09-27 17:33:18.446 Thread-11pattern does not match
+2024-09-27 17:33:18.446 Thread-11url matches route length
+2024-09-27 17:33:18.446 Thread-11/perm/:x : /perm/fMktNx
+2024-09-27 17:33:18.446 Thread-11match 0: , 
+2024-09-27 17:33:18.446 Thread-11match 1: perm, perm
+2024-09-27 17:33:18.446 Thread-11match 2: :x, fMktNx
+2024-09-27 17:33:18.446 Thread-11param x : fMktNx
+2024-09-27 17:33:18.446 Thread-11route pattern found: /perm/:x
+2024-09-27 17:33:18.446 Thread-11prev session found
+2024-09-27 17:33:18.447 Thread-11return from handle: fMktNx
+2024-09-27 17:33:18.447 Thread-11request handled
+2024-09-27 17:33:18.447 Thread-11is there a new session: false
+2024-09-27 17:33:18.447 Thread-11Request Line: HTTP/1.1 200 OK
+
+2024-09-27 17:33:18.447 Thread-11body added from handle return: fMktNx
+2024-09-27 17:33:18.447 Thread-11newFilePath: null/perm/fMktNx
+2024-09-27 17:33:18.447 Thread-11ERROR: Not Found
+2024-09-27 17:33:18.448 Thread-11ERROR: Socket is closed
+2024-09-27 17:33:19.964 Thread-12Client connected
+2024-09-27 17:33:19.965 Thread-12Request line: GET /perm/fMktNx HTTP/1.1
+2024-09-27 17:33:19.965 Thread-12splitHeader[0]: GET /perm/fMktNx HTTP/1.1
+2024-09-27 17:33:19.965 Thread-12splitHeader[0]: Host
+2024-09-27 17:33:19.965 Thread-12splitHeader[1]:  localhost
+2024-09-27 17:33:19.965 Thread-12splitHeader[0]: Cookie
+2024-09-27 17:33:19.965 Thread-12splitHeader[1]:  SessionID=vCY-H1NlwJDIPkdygUdS
+2024-09-27 17:33:19.965 Thread-12current time: 1727472799965
+2024-09-27 17:33:19.966 Thread-12last accessed: 1727472798446
+2024-09-27 17:33:19.966 Thread-12max interval: 1
+2024-09-27 17:33:19.966 Thread-12server expired before parsing
+2024-09-27 17:33:19.966 Thread-12current session: null
+2024-09-27 17:33:19.966 Thread-12content length: 0
+2024-09-27 17:33:19.966 Thread-12command: GET
+2024-09-27 17:33:19.966 Thread-12requested URL: /perm/fMktNx
+2024-09-27 17:33:19.966 Thread-12Content Type: 
+2024-09-27 17:33:19.966 Thread-12url matches route length
+2024-09-27 17:33:19.966 Thread-12/echo/:x : /perm/fMktNx
+2024-09-27 17:33:19.966 Thread-12match 0: , 
+2024-09-27 17:33:19.967 Thread-12match 1: echo, perm
+2024-09-27 17:33:19.967 Thread-12pattern does not match
+2024-09-27 17:33:19.967 Thread-12url matches route length
+2024-09-27 17:33:19.967 Thread-12/perm/:x : /perm/fMktNx
+2024-09-27 17:33:19.967 Thread-12match 0: , 
+2024-09-27 17:33:19.967 Thread-12match 1: perm, perm
+2024-09-27 17:33:19.967 Thread-12match 2: :x, fMktNx
+2024-09-27 17:33:19.967 Thread-12param x : fMktNx
+2024-09-27 17:33:19.967 Thread-12route pattern found: /perm/:x
+2024-09-27 17:33:19.967 Thread-12new session created: uejsY8Bdw-PAUXMwMtNa
+2024-09-27 17:33:19.967 Thread-12return from handle: fMktNx
+2024-09-27 17:33:19.967 Thread-12request handled
+2024-09-27 17:33:19.967 Thread-12is there a new session: true
+2024-09-27 17:33:19.967 Thread-12response header called
+2024-09-27 17:33:19.967 Thread-12Request Line: HTTP/1.1 200 OK
+
+2024-09-27 17:33:19.967 Thread-12header: Set-Cookie: : SessionID=uejsY8Bdw-PAUXMwMtNa
+2024-09-27 17:33:19.967 Thread-12body added from handle return: fMktNx
+2024-09-27 17:33:19.968 Thread-12newFilePath: null/perm/fMktNx
+2024-09-27 17:33:19.968 Thread-12ERROR: Not Found
+2024-09-27 17:33:19.968 Thread-12ERROR: Socket is closed
+2024-09-27 17:33:20.088 Thread-4checking exipred
+2024-09-27 17:33:20.088 Thread-4checking session expired: uejsY8Bdw-PAUXMwMtNa
+2024-09-27 17:33:20.088 Thread-4current time: 1727472800088
+2024-09-27 17:33:20.088 Thread-4last accessed: 1727472799967
+2024-09-27 17:33:20.088 Thread-4max interval: 1
+2024-09-27 17:33:20.088 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:20.088 Thread-4current time: 1727472800088
+2024-09-27 17:33:20.088 Thread-4last accessed: 1727472798416
+2024-09-27 17:33:20.088 Thread-4max interval: 300
+2024-09-27 17:33:20.088 Thread-4checking session expired: uMvTQ7VnKwlpG8zKqMfO
+2024-09-27 17:33:20.088 Thread-4current time: 1727472800088
+2024-09-27 17:33:20.088 Thread-4last accessed: 1727472798436
+2024-09-27 17:33:20.088 Thread-4max interval: 1
+2024-09-27 17:33:20.088 Thread-4server expired: uMvTQ7VnKwlpG8zKqMfO
+2024-09-27 17:33:25.090 Thread-4checking exipred
+2024-09-27 17:33:25.090 Thread-4checking session expired: uejsY8Bdw-PAUXMwMtNa
+2024-09-27 17:33:25.090 Thread-4current time: 1727472805090
+2024-09-27 17:33:25.090 Thread-4last accessed: 1727472799967
+2024-09-27 17:33:25.090 Thread-4max interval: 1
+2024-09-27 17:33:25.090 Thread-4server expired: uejsY8Bdw-PAUXMwMtNa
+2024-09-27 17:33:25.090 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:25.090 Thread-4current time: 1727472805090
+2024-09-27 17:33:25.090 Thread-4last accessed: 1727472798416
+2024-09-27 17:33:25.090 Thread-4max interval: 300
+2024-09-27 17:33:30.096 Thread-4checking exipred
+2024-09-27 17:33:30.096 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:30.096 Thread-4current time: 1727472810096
+2024-09-27 17:33:30.096 Thread-4last accessed: 1727472798416
+2024-09-27 17:33:30.096 Thread-4max interval: 300
+2024-09-27 17:33:35.108 Thread-4checking exipred
+2024-09-27 17:33:35.108 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:35.108 Thread-4current time: 1727472815108
+2024-09-27 17:33:35.108 Thread-4last accessed: 1727472798416
+2024-09-27 17:33:35.108 Thread-4max interval: 300
+2024-09-27 17:33:40.112 Thread-4checking exipred
+2024-09-27 17:33:40.112 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:40.112 Thread-4current time: 1727472820112
+2024-09-27 17:33:40.112 Thread-4last accessed: 1727472798416
+2024-09-27 17:33:40.112 Thread-4max interval: 300
+2024-09-27 17:33:45.116 Thread-4checking exipred
+2024-09-27 17:33:45.116 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:45.116 Thread-4current time: 1727472825116
+2024-09-27 17:33:45.116 Thread-4last accessed: 1727472798416
+2024-09-27 17:33:45.116 Thread-4max interval: 300
+2024-09-27 17:33:50.128 Thread-4checking exipred
+2024-09-27 17:33:50.128 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:50.129 Thread-4current time: 1727472830129
+2024-09-27 17:33:50.129 Thread-4last accessed: 1727472798416
+2024-09-27 17:33:50.129 Thread-4max interval: 300
+2024-09-27 17:33:55.142 Thread-4checking exipred
+2024-09-27 17:33:55.142 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:33:55.142 Thread-4current time: 1727472835142
+2024-09-27 17:33:55.142 Thread-4last accessed: 1727472798416
+2024-09-27 17:33:55.142 Thread-4max interval: 300
+2024-09-27 17:34:00.143 Thread-4checking exipred
+2024-09-27 17:34:00.143 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:34:00.143 Thread-4current time: 1727472840143
+2024-09-27 17:34:00.143 Thread-4last accessed: 1727472798416
+2024-09-27 17:34:00.143 Thread-4max interval: 300
+2024-09-27 17:34:05.155 Thread-4checking exipred
+2024-09-27 17:34:05.155 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:34:05.155 Thread-4current time: 1727472845155
+2024-09-27 17:34:05.155 Thread-4last accessed: 1727472798416
+2024-09-27 17:34:05.155 Thread-4max interval: 300
+2024-09-27 17:34:10.168 Thread-4checking exipred
+2024-09-27 17:34:10.168 Thread-4checking session expired: vSRphj150--J5TAwpMeN
+2024-09-27 17:34:10.168 Thread-4current time: 1727472850168
+2024-09-27 17:34:10.168 Thread-4last accessed: 1727472798416
+2024-09-27 17:34:10.168 Thread-4max interval: 300

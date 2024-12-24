@@ -1,0 +1,348 @@
+2024-09-20 14:38:05.268 main  Port set to: 8080
+2024-09-20 14:38:05.273 main  Static files location set to: __test123
+2024-09-20 14:38:05.275 main  GET route registered: /hello
+2024-09-20 14:38:05.275 main  GET route registered: /foo
+2024-09-20 14:38:05.276 main  POST route registered: /postbody
+2024-09-20 14:38:05.276 main  PUT route registered: /puthdr
+2024-09-20 14:38:05.278 main  PUT route registered: /pathpar/:blah/123/:blubb
+2024-09-20 14:38:05.278 main  GET route registered: /error
+2024-09-20 14:38:05.279 main  GET route registered: /write
+2024-09-20 14:38:05.279 main  GET route registered: /qparam
+2024-09-20 14:38:05.288 Thread-1Server listening
+2024-09-20 14:38:08.527 Thread-2Client connected
+2024-09-20 14:38:08.529 Thread-2Request line: GET /file1.txt HTTP/1.1
+2024-09-20 14:38:08.530 Thread-2splitHeader[0]: GET /file1.txt HTTP/1.1
+2024-09-20 14:38:08.530 Thread-2splitHeader[0]: Host
+2024-09-20 14:38:08.530 Thread-2splitHeader[1]:  localhost
+2024-09-20 14:38:08.530 Thread-2content length: 0
+2024-09-20 14:38:08.530 Thread-2command: GET
+2024-09-20 14:38:08.530 Thread-2requested URL: /file1.txt
+2024-09-20 14:38:08.530 Thread-2Content Type: 
+2024-09-20 14:38:08.530 Thread-2url matches route length
+2024-09-20 14:38:08.530 Thread-2/foo : /file1.txt
+2024-09-20 14:38:08.536 Thread-2match 0: , 
+2024-09-20 14:38:08.536 Thread-2match 1: foo, file1.txt
+2024-09-20 14:38:08.536 Thread-2pattern does not match
+2024-09-20 14:38:08.536 Thread-2url matches route length
+2024-09-20 14:38:08.536 Thread-2/error : /file1.txt
+2024-09-20 14:38:08.536 Thread-2match 0: , 
+2024-09-20 14:38:08.536 Thread-2match 1: error, file1.txt
+2024-09-20 14:38:08.536 Thread-2pattern does not match
+2024-09-20 14:38:08.536 Thread-2url matches route length
+2024-09-20 14:38:08.536 Thread-2/write : /file1.txt
+2024-09-20 14:38:08.536 Thread-2match 0: , 
+2024-09-20 14:38:08.536 Thread-2match 1: write, file1.txt
+2024-09-20 14:38:08.536 Thread-2pattern does not match
+2024-09-20 14:38:08.536 Thread-2url matches route length
+2024-09-20 14:38:08.536 Thread-2/qparam : /file1.txt
+2024-09-20 14:38:08.536 Thread-2match 0: , 
+2024-09-20 14:38:08.536 Thread-2match 1: qparam, file1.txt
+2024-09-20 14:38:08.538 Thread-2pattern does not match
+2024-09-20 14:38:08.538 Thread-2url matches route length
+2024-09-20 14:38:08.538 Thread-2/hello : /file1.txt
+2024-09-20 14:38:08.538 Thread-2match 0: , 
+2024-09-20 14:38:08.538 Thread-2match 1: hello, file1.txt
+2024-09-20 14:38:08.538 Thread-2pattern does not match
+2024-09-20 14:38:08.538 Thread-2newFilePath: __test123/file1.txt
+2024-09-20 14:38:08.545 Thread-2file headers sent
+2024-09-20 14:38:08.549 Thread-2end of request
+2024-09-20 14:38:08.550 Thread-2End of Reading
+2024-09-20 14:38:08.551 Thread-3Client connected
+2024-09-20 14:38:08.551 Thread-3Request line: GET /thisFileShouldNotExist.txt HTTP/1.1
+2024-09-20 14:38:08.551 Thread-3splitHeader[0]: GET /thisFileShouldNotExist.txt HTTP/1.1
+2024-09-20 14:38:08.551 Thread-3splitHeader[0]: Host
+2024-09-20 14:38:08.551 Thread-3splitHeader[1]:  localhost
+2024-09-20 14:38:08.551 Thread-3content length: 0
+2024-09-20 14:38:08.551 Thread-3command: GET
+2024-09-20 14:38:08.552 Thread-3requested URL: /thisFileShouldNotExist.txt
+2024-09-20 14:38:08.552 Thread-3Content Type: 
+2024-09-20 14:38:08.552 Thread-3url matches route length
+2024-09-20 14:38:08.552 Thread-3/foo : /thisFileShouldNotExist.txt
+2024-09-20 14:38:08.552 Thread-3match 0: , 
+2024-09-20 14:38:08.552 Thread-3match 1: foo, thisFileShouldNotExist.txt
+2024-09-20 14:38:08.552 Thread-3pattern does not match
+2024-09-20 14:38:08.552 Thread-3url matches route length
+2024-09-20 14:38:08.552 Thread-3/error : /thisFileShouldNotExist.txt
+2024-09-20 14:38:08.552 Thread-3match 0: , 
+2024-09-20 14:38:08.552 Thread-3match 1: error, thisFileShouldNotExist.txt
+2024-09-20 14:38:08.552 Thread-3pattern does not match
+2024-09-20 14:38:08.552 Thread-3url matches route length
+2024-09-20 14:38:08.552 Thread-3/write : /thisFileShouldNotExist.txt
+2024-09-20 14:38:08.552 Thread-3match 0: , 
+2024-09-20 14:38:08.552 Thread-3match 1: write, thisFileShouldNotExist.txt
+2024-09-20 14:38:08.553 Thread-3pattern does not match
+2024-09-20 14:38:08.553 Thread-3url matches route length
+2024-09-20 14:38:08.553 Thread-3/qparam : /thisFileShouldNotExist.txt
+2024-09-20 14:38:08.553 Thread-3match 0: , 
+2024-09-20 14:38:08.553 Thread-3match 1: qparam, thisFileShouldNotExist.txt
+2024-09-20 14:38:08.553 Thread-3pattern does not match
+2024-09-20 14:38:08.553 Thread-3url matches route length
+2024-09-20 14:38:08.553 Thread-3/hello : /thisFileShouldNotExist.txt
+2024-09-20 14:38:08.553 Thread-3match 0: , 
+2024-09-20 14:38:08.553 Thread-3match 1: hello, thisFileShouldNotExist.txt
+2024-09-20 14:38:08.553 Thread-3pattern does not match
+2024-09-20 14:38:08.553 Thread-3newFilePath: __test123/thisFileShouldNotExist.txt
+2024-09-20 14:38:08.554 Thread-3ERROR: Not Found
+2024-09-20 14:38:08.555 Thread-3end of request
+2024-09-20 14:38:08.555 Thread-3End of Reading
+2024-09-20 14:38:08.556 Thread-4Client connected
+2024-09-20 14:38:08.557 Thread-4Request line: GET /hello HTTP/1.1
+2024-09-20 14:38:08.557 Thread-4splitHeader[0]: GET /hello HTTP/1.1
+2024-09-20 14:38:08.557 Thread-4splitHeader[0]: Host
+2024-09-20 14:38:08.557 Thread-4splitHeader[1]:  localhost
+2024-09-20 14:38:08.557 Thread-4content length: 0
+2024-09-20 14:38:08.558 Thread-4command: GET
+2024-09-20 14:38:08.558 Thread-4requested URL: /hello
+2024-09-20 14:38:08.558 Thread-4Content Type: 
+2024-09-20 14:38:08.558 Thread-4url matches route length
+2024-09-20 14:38:08.558 Thread-4/foo : /hello
+2024-09-20 14:38:08.558 Thread-4match 0: , 
+2024-09-20 14:38:08.558 Thread-4match 1: foo, hello
+2024-09-20 14:38:08.558 Thread-4pattern does not match
+2024-09-20 14:38:08.558 Thread-4url matches route length
+2024-09-20 14:38:08.558 Thread-4/error : /hello
+2024-09-20 14:38:08.558 Thread-4match 0: , 
+2024-09-20 14:38:08.558 Thread-4match 1: error, hello
+2024-09-20 14:38:08.559 Thread-4pattern does not match
+2024-09-20 14:38:08.559 Thread-4url matches route length
+2024-09-20 14:38:08.559 Thread-4/write : /hello
+2024-09-20 14:38:08.559 Thread-4match 0: , 
+2024-09-20 14:38:08.559 Thread-4match 1: write, hello
+2024-09-20 14:38:08.559 Thread-4pattern does not match
+2024-09-20 14:38:08.559 Thread-4url matches route length
+2024-09-20 14:38:08.559 Thread-4/qparam : /hello
+2024-09-20 14:38:08.559 Thread-4match 0: , 
+2024-09-20 14:38:08.559 Thread-4match 1: qparam, hello
+2024-09-20 14:38:08.559 Thread-4pattern does not match
+2024-09-20 14:38:08.559 Thread-4url matches route length
+2024-09-20 14:38:08.559 Thread-4/hello : /hello
+2024-09-20 14:38:08.559 Thread-4match 0: , 
+2024-09-20 14:38:08.560 Thread-4match 1: hello, hello
+2024-09-20 14:38:08.560 Thread-4route pattern found: /hello
+2024-09-20 14:38:08.562 Thread-4return from handle: Hello World
+2024-09-20 14:38:08.562 Thread-4request handled
+2024-09-20 14:38:08.562 Thread-4Request Line: HTTP/1.1 200 OK
+
+2024-09-20 14:38:08.563 Thread-4body added from handle return: Hello World
+2024-09-20 14:38:08.563 Thread-4newFilePath: __test123/hello
+2024-09-20 14:38:08.564 Thread-4ERROR: Not Found
+2024-09-20 14:38:08.564 Thread-4ERROR: Socket is closed
+2024-09-20 14:38:08.566 Thread-5Client connected
+2024-09-20 14:38:08.578 Thread-5Request line: POST /postbody HTTP/1.1
+2024-09-20 14:38:08.579 Thread-5splitHeader[0]: POST /postbody HTTP/1.1
+2024-09-20 14:38:08.579 Thread-5splitHeader[0]: Content-Length
+2024-09-20 14:38:08.579 Thread-5splitHeader[1]:  7
+2024-09-20 14:38:08.579 Thread-5splitHeader[0]: Host
+2024-09-20 14:38:08.579 Thread-5splitHeader[1]:  localhost
+2024-09-20 14:38:08.579 Thread-5content length: 7
+2024-09-20 14:38:08.579 Thread-5Body received: 4ahJVfX
+2024-09-20 14:38:08.579 Thread-5command: POST
+2024-09-20 14:38:08.579 Thread-5requested URL: /postbody
+2024-09-20 14:38:08.579 Thread-5Content Type: 
+2024-09-20 14:38:08.579 Thread-5url matches route length
+2024-09-20 14:38:08.579 Thread-5/postbody : /postbody
+2024-09-20 14:38:08.579 Thread-5match 0: , 
+2024-09-20 14:38:08.579 Thread-5match 1: postbody, postbody
+2024-09-20 14:38:08.579 Thread-5route pattern found: /postbody
+2024-09-20 14:38:08.580 Thread-5return from handle: req.body() returned: 4ahJVfX
+2024-09-20 14:38:08.580 Thread-5request handled
+2024-09-20 14:38:08.580 Thread-5Request Line: HTTP/1.1 200 OK
+
+2024-09-20 14:38:08.580 Thread-5body added from handle return: req.body() returned: 4ahJVfX
+2024-09-20 14:38:08.580 Thread-5newFilePath: __test123/postbody
+2024-09-20 14:38:08.580 Thread-5ERROR: method is not allowed.
+2024-09-20 14:38:08.580 Thread-5ERROR: Socket is closed
+2024-09-20 14:38:08.583 Thread-6Client connected
+2024-09-20 14:38:08.583 Thread-6Request line: PUT /puthdr HTTP/1.1
+2024-09-20 14:38:08.583 Thread-6splitHeader[0]: PUT /puthdr HTTP/1.1
+2024-09-20 14:38:08.583 Thread-6splitHeader[0]: X-Foo
+2024-09-20 14:38:08.583 Thread-6splitHeader[1]:  OlkE1ylbo1Gqq8X
+2024-09-20 14:38:08.583 Thread-6splitHeader[0]: Host
+2024-09-20 14:38:08.584 Thread-6splitHeader[1]:  localhost
+2024-09-20 14:38:08.584 Thread-6content length: 0
+2024-09-20 14:38:08.584 Thread-6command: PUT
+2024-09-20 14:38:08.584 Thread-6requested URL: /puthdr
+2024-09-20 14:38:08.584 Thread-6Content Type: 
+2024-09-20 14:38:08.584 Thread-6url matches route length
+2024-09-20 14:38:08.584 Thread-6/puthdr : /puthdr
+2024-09-20 14:38:08.584 Thread-6match 0: , 
+2024-09-20 14:38:08.584 Thread-6match 1: puthdr, puthdr
+2024-09-20 14:38:08.584 Thread-6route pattern found: /puthdr
+2024-09-20 14:38:08.584 Thread-6response header called
+2024-09-20 14:38:08.584 Thread-6return from handle: OK
+2024-09-20 14:38:08.584 Thread-6request handled
+2024-09-20 14:38:08.585 Thread-6Request Line: HTTP/1.1 200 OK
+
+2024-09-20 14:38:08.585 Thread-6header: X-Bar:  OlkE1ylbo1Gqq8X
+2024-09-20 14:38:08.585 Thread-6body added from handle return: OK
+2024-09-20 14:38:08.585 Thread-6newFilePath: __test123/puthdr
+2024-09-20 14:38:08.585 Thread-6ERROR: method is not allowed.
+2024-09-20 14:38:08.585 Thread-6ERROR: Socket is closed
+2024-09-20 14:38:08.587 Thread-7Client connected
+2024-09-20 14:38:08.590 Thread-7Request line: PUT /pathpar/mHqEk/123/7e5zs HTTP/1.1
+2024-09-20 14:38:08.591 Thread-7splitHeader[0]: PUT /pathpar/mHqEk/123/7e5zs HTTP/1.1
+2024-09-20 14:38:08.591 Thread-7splitHeader[0]: Host
+2024-09-20 14:38:08.591 Thread-7splitHeader[1]:  localhost
+2024-09-20 14:38:08.591 Thread-7content length: 0
+2024-09-20 14:38:08.591 Thread-7command: PUT
+2024-09-20 14:38:08.591 Thread-7requested URL: /pathpar/mHqEk/123/7e5zs
+2024-09-20 14:38:08.591 Thread-7Content Type: 
+2024-09-20 14:38:08.591 Thread-7url matches route length
+2024-09-20 14:38:08.591 Thread-7/pathpar/:blah/123/:blubb : /pathpar/mHqEk/123/7e5zs
+2024-09-20 14:38:08.591 Thread-7match 0: , 
+2024-09-20 14:38:08.591 Thread-7match 1: pathpar, pathpar
+2024-09-20 14:38:08.591 Thread-7match 2: :blah, mHqEk
+2024-09-20 14:38:08.591 Thread-7param blah : mHqEk
+2024-09-20 14:38:08.591 Thread-7match 3: 123, 123
+2024-09-20 14:38:08.591 Thread-7match 4: :blubb, 7e5zs
+2024-09-20 14:38:08.592 Thread-7param blubb : 7e5zs
+2024-09-20 14:38:08.592 Thread-7route pattern found: /pathpar/:blah/123/:blubb
+2024-09-20 14:38:08.592 Thread-7return from handle: Val1: [mHqEk] Val2: [7e5zs]
+2024-09-20 14:38:08.592 Thread-7request handled
+2024-09-20 14:38:08.592 Thread-7Request Line: HTTP/1.1 200 OK
+
+2024-09-20 14:38:08.592 Thread-7body added from handle return: Val1: [mHqEk] Val2: [7e5zs]
+2024-09-20 14:38:08.592 Thread-7newFilePath: __test123/pathpar/mHqEk/123/7e5zs
+2024-09-20 14:38:08.592 Thread-7ERROR: method is not allowed.
+2024-09-20 14:38:08.592 Thread-7ERROR: Socket is closed
+2024-09-20 14:38:08.594 Thread-8Client connected
+2024-09-20 14:38:08.595 Thread-8Request line: GET /error HTTP/1.1
+2024-09-20 14:38:08.595 Thread-8splitHeader[0]: GET /error HTTP/1.1
+2024-09-20 14:38:08.595 Thread-8splitHeader[0]: Host
+2024-09-20 14:38:08.595 Thread-8splitHeader[1]:  localhost
+2024-09-20 14:38:08.595 Thread-8content length: 0
+2024-09-20 14:38:08.595 Thread-8command: GET
+2024-09-20 14:38:08.595 Thread-8requested URL: /error
+2024-09-20 14:38:08.595 Thread-8Content Type: 
+2024-09-20 14:38:08.595 Thread-8url matches route length
+2024-09-20 14:38:08.595 Thread-8/foo : /error
+2024-09-20 14:38:08.595 Thread-8match 0: , 
+2024-09-20 14:38:08.595 Thread-8match 1: foo, error
+2024-09-20 14:38:08.596 Thread-8pattern does not match
+2024-09-20 14:38:08.596 Thread-8url matches route length
+2024-09-20 14:38:08.596 Thread-8/error : /error
+2024-09-20 14:38:08.596 Thread-8match 0: , 
+2024-09-20 14:38:08.596 Thread-8match 1: error, error
+2024-09-20 14:38:08.596 Thread-8route pattern found: /error
+2024-09-20 14:38:08.596 Thread-8response body called: Should not show up!
+2024-09-20 14:38:08.596 Thread-8bodyBytes: Should not show up!
+2024-09-20 14:38:08.596 Thread-8response header called
+2024-09-20 14:38:08.596 Thread-8ERROR: Internal Server Errorjava.lang.Exception: Exception thrown on purpose (for testing)
+2024-09-20 14:38:08.596 Thread-8Request Line: HTTP/1.1 200 OK
+
+2024-09-20 14:38:08.596 Thread-8header: Content Length: 19
+2024-09-20 14:38:08.596 Thread-8body: Should not show up!
+2024-09-20 14:38:08.596 Thread-8response sent
+2024-09-20 14:38:08.598 Thread-8url matches route length
+2024-09-20 14:38:08.598 Thread-8/write : /error
+2024-09-20 14:38:08.598 Thread-8match 0: , 
+2024-09-20 14:38:08.598 Thread-8match 1: write, error
+2024-09-20 14:38:08.598 Thread-8pattern does not match
+2024-09-20 14:38:08.598 Thread-8url matches route length
+2024-09-20 14:38:08.598 Thread-8/qparam : /error
+2024-09-20 14:38:08.598 Thread-8match 0: , 
+2024-09-20 14:38:08.598 Thread-8match 1: qparam, error
+2024-09-20 14:38:08.598 Thread-8pattern does not match
+2024-09-20 14:38:08.598 Thread-8url matches route length
+2024-09-20 14:38:08.598 Thread-8/hello : /error
+2024-09-20 14:38:08.599 Thread-8match 0: , 
+2024-09-20 14:38:08.599 Thread-8match 1: hello, error
+2024-09-20 14:38:08.599 Thread-8pattern does not match
+2024-09-20 14:38:08.599 Thread-8newFilePath: __test123/error
+2024-09-20 14:38:08.599 Thread-8ERROR: Not Found
+2024-09-20 14:38:08.599 Thread-8ERROR: Socket is closed
+2024-09-20 14:38:08.600 Thread-9Client connected
+2024-09-20 14:38:08.600 Thread-9Request line: GET /write HTTP/1.1
+2024-09-20 14:38:08.600 Thread-9splitHeader[0]: GET /write HTTP/1.1
+2024-09-20 14:38:08.601 Thread-9splitHeader[0]: Host
+2024-09-20 14:38:08.601 Thread-9splitHeader[1]:  localhost
+2024-09-20 14:38:08.601 Thread-9content length: 0
+2024-09-20 14:38:08.601 Thread-9command: GET
+2024-09-20 14:38:08.601 Thread-9requested URL: /write
+2024-09-20 14:38:08.601 Thread-9Content Type: 
+2024-09-20 14:38:08.601 Thread-9url matches route length
+2024-09-20 14:38:08.601 Thread-9/foo : /write
+2024-09-20 14:38:08.601 Thread-9match 0: , 
+2024-09-20 14:38:08.601 Thread-9match 1: foo, write
+2024-09-20 14:38:08.601 Thread-9pattern does not match
+2024-09-20 14:38:08.601 Thread-9url matches route length
+2024-09-20 14:38:08.601 Thread-9/error : /write
+2024-09-20 14:38:08.601 Thread-9match 0: , 
+2024-09-20 14:38:08.601 Thread-9match 1: error, write
+2024-09-20 14:38:08.601 Thread-9pattern does not match
+2024-09-20 14:38:08.601 Thread-9url matches route length
+2024-09-20 14:38:08.601 Thread-9/write : /write
+2024-09-20 14:38:08.601 Thread-9match 0: , 
+2024-09-20 14:38:08.601 Thread-9match 1: write, write
+2024-09-20 14:38:08.601 Thread-9route pattern found: /write
+2024-09-20 14:38:08.601 Thread-9response header called
+2024-09-20 14:38:08.601 Thread-9response write called
+2024-09-20 14:38:08.604 Thread-9headers written with write
+2024-09-20 14:38:08.604 Thread-9write written
+2024-09-20 14:38:08.604 Thread-9response write called
+2024-09-20 14:38:08.604 Thread-9write written
+2024-09-20 14:38:08.604 Thread-9return from handle: null
+2024-09-20 14:38:08.604 Thread-9request handled
+2024-09-20 14:38:08.604 Thread-9url matches route length
+2024-09-20 14:38:08.605 Thread-9/qparam : /write
+2024-09-20 14:38:08.605 Thread-9match 0: , 
+2024-09-20 14:38:08.605 Thread-9match 1: qparam, write
+2024-09-20 14:38:08.605 Thread-9pattern does not match
+2024-09-20 14:38:08.605 Thread-9url matches route length
+2024-09-20 14:38:08.605 Thread-9/hello : /write
+2024-09-20 14:38:08.605 Thread-9match 0: , 
+2024-09-20 14:38:08.605 Thread-9match 1: hello, write
+2024-09-20 14:38:08.605 Thread-9pattern does not match
+2024-09-20 14:38:08.605 Thread-9newFilePath: __test123/write
+2024-09-20 14:38:08.605 Thread-9ERROR: Not Found
+2024-09-20 14:38:08.605 Thread-9ERROR: Socket is closed
+2024-09-20 14:38:08.606 Thread-10Client connected
+2024-09-20 14:38:08.611 Thread-10Request line: GET /qparam?par1=MGRi0+X&par2=%22PgqyA%22 HTTP/1.1
+2024-09-20 14:38:08.611 Thread-10splitHeader[0]: GET /qparam?par1=MGRi0+X&par2=%22PgqyA%22 HTTP/1.1
+2024-09-20 14:38:08.611 Thread-10splitHeader[0]: Host
+2024-09-20 14:38:08.611 Thread-10splitHeader[1]:  localhost
+2024-09-20 14:38:08.611 Thread-10splitHeader[0]: Content-Type
+2024-09-20 14:38:08.611 Thread-10splitHeader[1]:  application/x-www-form-urlencoded
+2024-09-20 14:38:08.612 Thread-10content type-  application/x-www-form-urlencoded
+2024-09-20 14:38:08.612 Thread-10splitHeader[0]: Content-Length
+2024-09-20 14:38:08.612 Thread-10splitHeader[1]:  21
+2024-09-20 14:38:08.612 Thread-10content length: 21
+2024-09-20 14:38:08.612 Thread-10Body received: par3=OMvku&par4=IZLTN
+2024-09-20 14:38:08.612 Thread-10command: GET
+2024-09-20 14:38:08.612 Thread-10requested URL: /qparam?par1=MGRi0+X&par2=%22PgqyA%22
+2024-09-20 14:38:08.612 Thread-10contains qparams
+2024-09-20 14:38:08.612 Thread-10Content Type:  application/x-www-form-urlencoded
+2024-09-20 14:38:08.612 Thread-10body contains qparams
+2024-09-20 14:38:08.613 Thread-10url matches route length
+2024-09-20 14:38:08.613 Thread-10/foo : /qparam?par1=MGRi0+X&par2=%22PgqyA%22
+2024-09-20 14:38:08.613 Thread-10match 0: , 
+2024-09-20 14:38:08.613 Thread-10match 1: foo, qparam
+2024-09-20 14:38:08.613 Thread-10pattern does not match
+2024-09-20 14:38:08.613 Thread-10url matches route length
+2024-09-20 14:38:08.613 Thread-10/error : /qparam?par1=MGRi0+X&par2=%22PgqyA%22
+2024-09-20 14:38:08.613 Thread-10match 0: , 
+2024-09-20 14:38:08.613 Thread-10match 1: error, qparam
+2024-09-20 14:38:08.613 Thread-10pattern does not match
+2024-09-20 14:38:08.613 Thread-10url matches route length
+2024-09-20 14:38:08.613 Thread-10/write : /qparam?par1=MGRi0+X&par2=%22PgqyA%22
+2024-09-20 14:38:08.613 Thread-10match 0: , 
+2024-09-20 14:38:08.613 Thread-10match 1: write, qparam
+2024-09-20 14:38:08.613 Thread-10pattern does not match
+2024-09-20 14:38:08.613 Thread-10url matches route length
+2024-09-20 14:38:08.613 Thread-10/qparam : /qparam?par1=MGRi0+X&par2=%22PgqyA%22
+2024-09-20 14:38:08.613 Thread-10match 0: , 
+2024-09-20 14:38:08.613 Thread-10match 1: qparam, qparam
+2024-09-20 14:38:08.613 Thread-10route pattern found: /qparam
+2024-09-20 14:38:08.617 Thread-10return from handle: MGRi0 X,"PgqyA",OMvku,IZLTN
+2024-09-20 14:38:08.617 Thread-10request handled
+2024-09-20 14:38:08.617 Thread-10Request Line: HTTP/1.1 200 OK
+
+2024-09-20 14:38:08.617 Thread-10body added from handle return: MGRi0 X,"PgqyA",OMvku,IZLTN
+2024-09-20 14:38:08.617 Thread-10url matches route length
+2024-09-20 14:38:08.617 Thread-10/hello : /qparam?par1=MGRi0+X&par2=%22PgqyA%22
+2024-09-20 14:38:08.617 Thread-10match 0: , 
+2024-09-20 14:38:08.617 Thread-10match 1: hello, qparam
+2024-09-20 14:38:08.617 Thread-10pattern does not match
+2024-09-20 14:38:08.617 Thread-10newFilePath: __test123/qparam?par1=MGRi0+X&par2=%22PgqyA%22
+2024-09-20 14:38:08.618 Thread-10ERROR: Not Found
+2024-09-20 14:38:08.618 Thread-10ERROR: Socket is closed

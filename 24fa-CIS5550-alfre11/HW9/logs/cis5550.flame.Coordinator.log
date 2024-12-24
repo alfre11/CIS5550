@@ -1,0 +1,715 @@
+2024-12-09 22:29:40.828 main  Flame coordinator (v1.5 Jan 1 2023) starting on port 9000
+2024-12-09 22:29:40.838 main  Webserver (v1.7 Dec 31 2022) starting on port 9000
+2024-12-09 22:29:41.181 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:29:41.189 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:29:44.678 W-01  Received a POST request for /submit?class=cis5550.jobs.Indexer (on host 'default')
+2024-12-09 22:29:44.679 W-01  New job submitted; main class is cis5550.jobs.Indexer
+2024-12-09 22:29:44.700 W-01    JAR upload #1: OK
+2024-12-09 22:29:44.833 W-01    Operation completed and returned as RDD #1
+2024-12-09 22:29:44.851 W-01    Operation completed and returned as RDD #2
+2024-12-09 22:29:44.883 W-01    Operation completed and returned as RDD #3
+2024-12-09 22:29:44.909 W-01    Operation completed and returned as RDD #4
+2024-12-09 22:29:44.930 W-01    Operation completed and returned as RDD #5
+2024-12-09 22:29:44.956 W-01    Operation completed and returned as RDD #6
+2024-12-09 22:29:44.974 W-01    Operation completed and returned as RDD #7
+2024-12-09 22:29:45.007 W-01    Operation completed and returned as RDD #8
+2024-12-09 22:29:45.031 W-01    Operation completed and returned as RDD #9
+2024-12-09 22:29:45.047 W-01    Operation completed and returned as RDD #10
+2024-12-09 22:29:45.055 W-01    Sending a 200 response (36 bytes)
+2024-12-09 22:29:45.099 W-02  Received a POST request for /submit?class=cis5550.jobs.PageRank&arg1=0.001 (on host 'default')
+2024-12-09 22:29:45.099 W-02  New job submitted; main class is cis5550.jobs.PageRank
+2024-12-09 22:29:45.101 W-02    JAR upload #1: OK
+2024-12-09 22:29:45.127 W-02    Operation completed and returned as RDD #1
+2024-12-09 22:29:45.138 W-02    Operation completed and returned as RDD #2
+2024-12-09 22:29:45.155 W-02    Operation completed and returned as RDD #3
+2024-12-09 22:29:45.166 W-02    Operation completed and returned as RDD #4
+2024-12-09 22:29:45.178 W-02    Operation completed and returned as RDD #5
+2024-12-09 22:29:45.188 W-02    Operation completed and returned as RDD #6
+2024-12-09 22:29:45.229 W-02    Operation completed and returned as RDD #7
+2024-12-09 22:29:45.250 W-02    Operation completed and returned as RDD #8
+2024-12-09 22:29:45.276 W-02    Operation completed and returned as RDD #9
+2024-12-09 22:29:45.287 W-02    Operation completed and returned as RDD #10
+2024-12-09 22:29:45.300 W-02    Operation completed and returned as RDD #11
+2024-12-09 22:29:45.309 W-02    Operation completed and returned as RDD #12
+2024-12-09 22:29:45.318 W-02    Operation completed and returned as RDD #13
+2024-12-09 22:29:45.325 W-02    Operation completed and returned as RDD #14
+2024-12-09 22:29:45.341 W-02    Operation completed and returned as RDD #15
+2024-12-09 22:29:45.349 W-02    Operation completed and returned as RDD #16
+2024-12-09 22:29:45.360 W-02    Operation completed and returned as RDD #17
+2024-12-09 22:29:45.369 W-02    Operation completed and returned as RDD #18
+2024-12-09 22:29:45.377 W-02    Operation completed and returned as RDD #19
+2024-12-09 22:29:45.384 W-02    Operation completed and returned as RDD #20
+2024-12-09 22:29:45.402 W-02    Operation completed and returned as RDD #21
+2024-12-09 22:29:45.411 W-02    Operation completed and returned as RDD #22
+2024-12-09 22:29:45.421 W-02    Operation completed and returned as RDD #23
+2024-12-09 22:29:45.431 W-02    Operation completed and returned as RDD #24
+2024-12-09 22:29:45.440 W-02    Operation completed and returned as RDD #25
+2024-12-09 22:29:45.448 W-02    Operation completed and returned as RDD #26
+2024-12-09 22:29:45.464 W-02    Operation completed and returned as RDD #27
+2024-12-09 22:29:45.473 W-02    Operation completed and returned as RDD #28
+2024-12-09 22:29:45.483 W-02    Operation completed and returned as RDD #29
+2024-12-09 22:29:45.492 W-02    Operation completed and returned as RDD #30
+2024-12-09 22:29:45.502 W-02    Operation completed and returned as RDD #31
+2024-12-09 22:29:45.509 W-02    Operation completed and returned as RDD #32
+2024-12-09 22:29:45.526 W-02    Operation completed and returned as RDD #33
+2024-12-09 22:29:45.535 W-02    Operation completed and returned as RDD #34
+2024-12-09 22:29:45.546 W-02    Operation completed and returned as RDD #35
+2024-12-09 22:29:45.557 W-02    Operation completed and returned as RDD #36
+2024-12-09 22:29:45.567 W-02    Operation completed and returned as RDD #37
+2024-12-09 22:29:45.576 W-02    Operation completed and returned as RDD #38
+2024-12-09 22:29:45.598 W-02    Operation completed and returned as RDD #39
+2024-12-09 22:29:45.609 W-02    Operation completed and returned as RDD #40
+2024-12-09 22:29:45.620 W-02    Operation completed and returned as RDD #41
+2024-12-09 22:29:45.630 W-02    Operation completed and returned as RDD #42
+2024-12-09 22:29:45.641 W-02    Operation completed and returned as RDD #43
+2024-12-09 22:29:45.650 W-02    Operation completed and returned as RDD #44
+2024-12-09 22:29:45.668 W-02    Operation completed and returned as RDD #45
+2024-12-09 22:29:45.678 W-02    Operation completed and returned as RDD #46
+2024-12-09 22:29:45.690 W-02    Operation completed and returned as RDD #47
+2024-12-09 22:29:45.699 W-02    Operation completed and returned as RDD #48
+2024-12-09 22:29:45.707 W-02    Operation completed and returned as RDD #49
+2024-12-09 22:29:45.715 W-02    Operation completed and returned as RDD #50
+2024-12-09 22:29:45.732 W-02    Operation completed and returned as RDD #51
+2024-12-09 22:29:45.741 W-02    Operation completed and returned as RDD #52
+2024-12-09 22:29:45.753 W-02    Operation completed and returned as RDD #53
+2024-12-09 22:29:45.764 W-02    Operation completed and returned as RDD #54
+2024-12-09 22:29:45.775 W-02    Operation completed and returned as RDD #55
+2024-12-09 22:29:45.783 W-02    Operation completed and returned as RDD #56
+2024-12-09 22:29:45.802 W-02    Operation completed and returned as RDD #57
+2024-12-09 22:29:45.812 W-02    Operation completed and returned as RDD #58
+2024-12-09 22:29:45.824 W-02    Operation completed and returned as RDD #59
+2024-12-09 22:29:45.834 W-02    Operation completed and returned as RDD #60
+2024-12-09 22:29:45.842 W-02    Operation completed and returned as RDD #61
+2024-12-09 22:29:45.849 W-02    Operation completed and returned as RDD #62
+2024-12-09 22:29:45.865 W-02    Operation completed and returned as RDD #63
+2024-12-09 22:29:45.874 W-02    Operation completed and returned as RDD #64
+2024-12-09 22:29:45.884 W-02    Operation completed and returned as RDD #65
+2024-12-09 22:29:45.892 W-02    Operation completed and returned as RDD #66
+2024-12-09 22:29:45.901 W-02    Operation completed and returned as RDD #67
+2024-12-09 22:29:45.910 W-02    Operation completed and returned as RDD #68
+2024-12-09 22:29:45.925 W-02    Operation completed and returned as RDD #69
+2024-12-09 22:29:45.933 W-02    Operation completed and returned as RDD #70
+2024-12-09 22:29:45.942 W-02    Operation completed and returned as RDD #71
+2024-12-09 22:29:45.951 W-02    Operation completed and returned as RDD #72
+2024-12-09 22:29:45.959 W-02    Operation completed and returned as RDD #73
+2024-12-09 22:29:45.967 W-02    Operation completed and returned as RDD #74
+2024-12-09 22:29:45.982 W-02    Operation completed and returned as RDD #75
+2024-12-09 22:29:45.990 W-02    Operation completed and returned as RDD #76
+2024-12-09 22:29:46.000 W-02    Operation completed and returned as RDD #77
+2024-12-09 22:29:46.008 W-02    Operation completed and returned as RDD #78
+2024-12-09 22:29:46.017 W-02    Operation completed and returned as RDD #79
+2024-12-09 22:29:46.024 W-02    Operation completed and returned as RDD #80
+2024-12-09 22:29:46.045 W-02    Operation completed and returned as RDD #81
+2024-12-09 22:29:46.046 W-02    Sending a 200 response (36 bytes)
+2024-12-09 22:29:46.064 W-03  Received a POST request for /submit?class=cis5550.jobs.Ranker&arg1=apples+bananas+the+figs (on host 'default')
+2024-12-09 22:29:46.064 W-03  New job submitted; main class is cis5550.jobs.Ranker
+2024-12-09 22:29:46.067 W-03    JAR upload #1: OK
+2024-12-09 22:29:46.072 W-03    Ranker Run
+2024-12-09 22:29:46.072 W-03    trying to run query apples
+2024-12-09 22:29:46.084 W-03    Operation completed and returned as RDD #1
+2024-12-09 22:29:46.091 W-03    Operation completed and returned as RDD #2
+2024-12-09 22:29:46.102 W-03    Operation completed and returned as RDD #3
+2024-12-09 22:29:46.110 W-03    Operation completed and returned as RDD #4
+2024-12-09 22:29:46.122 W-03    Operation completed and returned as RDD #5
+2024-12-09 22:29:46.133 W-03    Operation completed and returned as RDD #6
+2024-12-09 22:29:46.142 W-03    Operation completed and returned as RDD #7
+2024-12-09 22:29:46.151 W-03    Operation completed and returned as RDD #8
+2024-12-09 22:29:46.159 W-03    Operation completed and returned as RDD #9
+2024-12-09 22:29:46.169 W-03    Operation completed and returned as RDD #10
+2024-12-09 22:29:46.177 W-03    Operation completed and returned as RDD #11
+2024-12-09 22:29:46.177 W-03    trying to run query bananas
+2024-12-09 22:29:46.187 W-03    Operation completed and returned as RDD #12
+2024-12-09 22:29:46.193 W-03    Operation completed and returned as RDD #13
+2024-12-09 22:29:46.202 W-03    Operation completed and returned as RDD #14
+2024-12-09 22:29:46.210 W-03    Operation completed and returned as RDD #15
+2024-12-09 22:29:46.221 W-03    Operation completed and returned as RDD #16
+2024-12-09 22:29:46.229 W-03    Operation completed and returned as RDD #17
+2024-12-09 22:29:46.239 W-03    Operation completed and returned as RDD #18
+2024-12-09 22:29:46.249 W-03    Operation completed and returned as RDD #19
+2024-12-09 22:29:46.256 W-03    Operation completed and returned as RDD #20
+2024-12-09 22:29:46.267 W-03    Operation completed and returned as RDD #21
+2024-12-09 22:29:46.274 W-03    Operation completed and returned as RDD #22
+2024-12-09 22:29:46.286 W-03    Operation completed and returned as RDD #23
+2024-12-09 22:29:46.286 W-03    trying to run query figs
+2024-12-09 22:29:46.297 W-03    Operation completed and returned as RDD #24
+2024-12-09 22:29:46.304 W-03    Operation completed and returned as RDD #25
+2024-12-09 22:29:46.314 W-03    Operation completed and returned as RDD #26
+2024-12-09 22:29:46.322 W-03    Operation completed and returned as RDD #27
+2024-12-09 22:29:46.335 W-03    Operation completed and returned as RDD #28
+2024-12-09 22:29:46.343 W-03    Operation completed and returned as RDD #29
+2024-12-09 22:29:46.354 W-03    Operation completed and returned as RDD #30
+2024-12-09 22:29:46.368 W-03    Operation completed and returned as RDD #31
+2024-12-09 22:29:46.375 W-03    Operation completed and returned as RDD #32
+2024-12-09 22:29:46.384 W-03    Operation completed and returned as RDD #33
+2024-12-09 22:29:46.391 W-03    Operation completed and returned as RDD #34
+2024-12-09 22:29:46.399 W-03    Operation completed and returned as RDD #35
+2024-12-09 22:29:46.403 W-03    Sending a 200 response (36 bytes)
+2024-12-09 22:29:51.196 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:29:51.196 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:30:01.200 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:30:01.200 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:30:11.207 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:30:11.207 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:30:21.211 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:30:21.211 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:30:31.216 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:30:31.216 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:30:41.233 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:30:41.233 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:30:51.242 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:30:51.242 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:31:01.244 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:31:01.244 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:31:11.258 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:31:11.258 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:31:21.266 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:31:21.266 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:31:31.279 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:31:31.280 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:31:41.294 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:31:41.294 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:31:51.307 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:31:51.307 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:32:01.316 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:32:01.316 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:32:11.328 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:32:11.328 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:32:21.330 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:32:21.330 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:32:31.332 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:32:31.332 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:32:41.346 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:32:41.346 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:32:51.358 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:32:51.358 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:33:01.360 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:33:01.360 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:33:11.371 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:33:11.371 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:33:21.383 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:33:21.383 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:33:31.392 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:33:31.392 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:33:41.396 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:33:41.396 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:33:56.724 main  Flame coordinator (v1.5 Jan 1 2023) starting on port 9000
+2024-12-09 22:33:56.733 main  Webserver (v1.7 Dec 31 2022) starting on port 9000
+2024-12-09 22:33:57.207 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:33:57.215 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:34:01.423 W-01  Received a POST request for /submit?class=cis5550.jobs.Indexer (on host 'default')
+2024-12-09 22:34:01.423 W-01  New job submitted; main class is cis5550.jobs.Indexer
+2024-12-09 22:34:01.443 W-01    JAR upload #1: OK
+2024-12-09 22:34:01.577 W-01    Operation completed and returned as RDD #1
+2024-12-09 22:34:01.596 W-01    Operation completed and returned as RDD #2
+2024-12-09 22:34:01.623 W-01    Operation completed and returned as RDD #3
+2024-12-09 22:34:01.651 W-01    Operation completed and returned as RDD #4
+2024-12-09 22:34:01.670 W-01    Operation completed and returned as RDD #5
+2024-12-09 22:34:01.700 W-01    Operation completed and returned as RDD #6
+2024-12-09 22:34:01.713 W-01    Operation completed and returned as RDD #7
+2024-12-09 22:34:01.735 W-01    Operation completed and returned as RDD #8
+2024-12-09 22:34:01.755 W-01    Operation completed and returned as RDD #9
+2024-12-09 22:34:01.768 W-01    Operation completed and returned as RDD #10
+2024-12-09 22:34:01.777 W-01    Sending a 200 response (36 bytes)
+2024-12-09 22:34:01.823 W-02  Received a POST request for /submit?class=cis5550.jobs.PageRank&arg1=0.001 (on host 'default')
+2024-12-09 22:34:01.823 W-02  New job submitted; main class is cis5550.jobs.PageRank
+2024-12-09 22:34:01.826 W-02    JAR upload #1: OK
+2024-12-09 22:34:01.848 W-02    Operation completed and returned as RDD #1
+2024-12-09 22:34:01.859 W-02    Operation completed and returned as RDD #2
+2024-12-09 22:34:01.876 W-02    Operation completed and returned as RDD #3
+2024-12-09 22:34:01.887 W-02    Operation completed and returned as RDD #4
+2024-12-09 22:34:01.898 W-02    Operation completed and returned as RDD #5
+2024-12-09 22:34:01.912 W-02    Operation completed and returned as RDD #6
+2024-12-09 22:34:01.951 W-02    Operation completed and returned as RDD #7
+2024-12-09 22:34:01.973 W-02    Operation completed and returned as RDD #8
+2024-12-09 22:34:02.000 W-02    Operation completed and returned as RDD #9
+2024-12-09 22:34:02.010 W-02    Operation completed and returned as RDD #10
+2024-12-09 22:34:02.021 W-02    Operation completed and returned as RDD #11
+2024-12-09 22:34:02.031 W-02    Operation completed and returned as RDD #12
+2024-12-09 22:34:02.040 W-02    Operation completed and returned as RDD #13
+2024-12-09 22:34:02.048 W-02    Operation completed and returned as RDD #14
+2024-12-09 22:34:02.066 W-02    Operation completed and returned as RDD #15
+2024-12-09 22:34:02.075 W-02    Operation completed and returned as RDD #16
+2024-12-09 22:34:02.086 W-02    Operation completed and returned as RDD #17
+2024-12-09 22:34:02.095 W-02    Operation completed and returned as RDD #18
+2024-12-09 22:34:02.105 W-02    Operation completed and returned as RDD #19
+2024-12-09 22:34:02.113 W-02    Operation completed and returned as RDD #20
+2024-12-09 22:34:02.132 W-02    Operation completed and returned as RDD #21
+2024-12-09 22:34:02.143 W-02    Operation completed and returned as RDD #22
+2024-12-09 22:34:02.155 W-02    Operation completed and returned as RDD #23
+2024-12-09 22:34:02.164 W-02    Operation completed and returned as RDD #24
+2024-12-09 22:34:02.173 W-02    Operation completed and returned as RDD #25
+2024-12-09 22:34:02.181 W-02    Operation completed and returned as RDD #26
+2024-12-09 22:34:02.198 W-02    Operation completed and returned as RDD #27
+2024-12-09 22:34:02.207 W-02    Operation completed and returned as RDD #28
+2024-12-09 22:34:02.217 W-02    Operation completed and returned as RDD #29
+2024-12-09 22:34:02.227 W-02    Operation completed and returned as RDD #30
+2024-12-09 22:34:02.237 W-02    Operation completed and returned as RDD #31
+2024-12-09 22:34:02.244 W-02    Operation completed and returned as RDD #32
+2024-12-09 22:34:02.261 W-02    Operation completed and returned as RDD #33
+2024-12-09 22:34:02.270 W-02    Operation completed and returned as RDD #34
+2024-12-09 22:34:02.281 W-02    Operation completed and returned as RDD #35
+2024-12-09 22:34:02.290 W-02    Operation completed and returned as RDD #36
+2024-12-09 22:34:02.300 W-02    Operation completed and returned as RDD #37
+2024-12-09 22:34:02.309 W-02    Operation completed and returned as RDD #38
+2024-12-09 22:34:02.330 W-02    Operation completed and returned as RDD #39
+2024-12-09 22:34:02.339 W-02    Operation completed and returned as RDD #40
+2024-12-09 22:34:02.351 W-02    Operation completed and returned as RDD #41
+2024-12-09 22:34:02.362 W-02    Operation completed and returned as RDD #42
+2024-12-09 22:34:02.372 W-02    Operation completed and returned as RDD #43
+2024-12-09 22:34:02.381 W-02    Operation completed and returned as RDD #44
+2024-12-09 22:34:02.399 W-02    Operation completed and returned as RDD #45
+2024-12-09 22:34:02.407 W-02    Operation completed and returned as RDD #46
+2024-12-09 22:34:02.419 W-02    Operation completed and returned as RDD #47
+2024-12-09 22:34:02.428 W-02    Operation completed and returned as RDD #48
+2024-12-09 22:34:02.437 W-02    Operation completed and returned as RDD #49
+2024-12-09 22:34:02.444 W-02    Operation completed and returned as RDD #50
+2024-12-09 22:34:02.461 W-02    Operation completed and returned as RDD #51
+2024-12-09 22:34:02.469 W-02    Operation completed and returned as RDD #52
+2024-12-09 22:34:02.481 W-02    Operation completed and returned as RDD #53
+2024-12-09 22:34:02.489 W-02    Operation completed and returned as RDD #54
+2024-12-09 22:34:02.499 W-02    Operation completed and returned as RDD #55
+2024-12-09 22:34:02.506 W-02    Operation completed and returned as RDD #56
+2024-12-09 22:34:02.523 W-02    Operation completed and returned as RDD #57
+2024-12-09 22:34:02.532 W-02    Operation completed and returned as RDD #58
+2024-12-09 22:34:02.542 W-02    Operation completed and returned as RDD #59
+2024-12-09 22:34:02.552 W-02    Operation completed and returned as RDD #60
+2024-12-09 22:34:02.560 W-02    Operation completed and returned as RDD #61
+2024-12-09 22:34:02.568 W-02    Operation completed and returned as RDD #62
+2024-12-09 22:34:02.582 W-02    Operation completed and returned as RDD #63
+2024-12-09 22:34:02.589 W-02    Operation completed and returned as RDD #64
+2024-12-09 22:34:02.599 W-02    Operation completed and returned as RDD #65
+2024-12-09 22:34:02.607 W-02    Operation completed and returned as RDD #66
+2024-12-09 22:34:02.615 W-02    Operation completed and returned as RDD #67
+2024-12-09 22:34:02.623 W-02    Operation completed and returned as RDD #68
+2024-12-09 22:34:02.638 W-02    Operation completed and returned as RDD #69
+2024-12-09 22:34:02.645 W-02    Operation completed and returned as RDD #70
+2024-12-09 22:34:02.654 W-02    Operation completed and returned as RDD #71
+2024-12-09 22:34:02.662 W-02    Operation completed and returned as RDD #72
+2024-12-09 22:34:02.670 W-02    Operation completed and returned as RDD #73
+2024-12-09 22:34:02.676 W-02    Operation completed and returned as RDD #74
+2024-12-09 22:34:02.692 W-02    Operation completed and returned as RDD #75
+2024-12-09 22:34:02.701 W-02    Operation completed and returned as RDD #76
+2024-12-09 22:34:02.711 W-02    Operation completed and returned as RDD #77
+2024-12-09 22:34:02.719 W-02    Operation completed and returned as RDD #78
+2024-12-09 22:34:02.727 W-02    Operation completed and returned as RDD #79
+2024-12-09 22:34:02.735 W-02    Operation completed and returned as RDD #80
+2024-12-09 22:34:02.756 W-02    Operation completed and returned as RDD #81
+2024-12-09 22:34:02.758 W-02    Sending a 200 response (36 bytes)
+2024-12-09 22:34:02.776 W-03  Received a POST request for /submit?class=cis5550.jobs.Ranker&arg1=guavas (on host 'default')
+2024-12-09 22:34:02.776 W-03  New job submitted; main class is cis5550.jobs.Ranker
+2024-12-09 22:34:02.779 W-03    JAR upload #1: OK
+2024-12-09 22:34:02.784 W-03    Ranker Run
+2024-12-09 22:34:02.785 W-03    trying to run query guavas
+2024-12-09 22:34:02.796 W-03    Operation completed and returned as RDD #1
+2024-12-09 22:34:02.804 W-03    Operation completed and returned as RDD #2
+2024-12-09 22:34:02.812 W-03    Operation completed and returned as RDD #3
+2024-12-09 22:34:02.819 W-03    Operation completed and returned as RDD #4
+2024-12-09 22:34:02.831 W-03    Operation completed and returned as RDD #5
+2024-12-09 22:34:02.840 W-03    Operation completed and returned as RDD #6
+2024-12-09 22:34:02.849 W-03    Operation completed and returned as RDD #7
+2024-12-09 22:34:02.857 W-03    Operation completed and returned as RDD #8
+2024-12-09 22:34:02.864 W-03    Operation completed and returned as RDD #9
+2024-12-09 22:34:02.873 W-03    Operation completed and returned as RDD #10
+2024-12-09 22:34:02.882 W-03    Operation completed and returned as RDD #11
+2024-12-09 22:34:02.885 W-03    Sending a 200 response (36 bytes)
+2024-12-09 22:34:07.232 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:34:07.233 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:34:17.236 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:34:17.236 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:34:27.245 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:34:27.246 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:34:37.252 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:34:37.252 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:34:47.262 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:34:47.262 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:34:57.264 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:34:57.264 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:35:07.271 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:35:07.271 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:35:17.282 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:35:17.282 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:35:27.292 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:35:27.292 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:35:37.302 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:35:37.302 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:35:47.306 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:35:47.308 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:35:57.320 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:35:57.320 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:36:07.325 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:36:07.326 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:36:17.333 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:36:17.333 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:36:27.348 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:36:27.348 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:36:37.352 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:36:37.352 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:36:47.361 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:36:47.361 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:36:57.373 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:36:57.374 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:37:07.387 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:37:07.387 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:37:17.399 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:37:17.399 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:37:27.406 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:37:27.406 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:37:37.420 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:37:37.420 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:37:47.427 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:37:47.428 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:37:57.436 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:37:57.436 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:38:07.451 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:38:07.451 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:38:17.454 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:38:17.454 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:38:27.469 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:38:27.469 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:38:37.472 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:38:37.472 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:38:47.483 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:38:47.483 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:38:57.496 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:38:57.496 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:39:07.508 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:39:07.508 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:39:17.522 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:39:17.522 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:39:27.527 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:39:27.527 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:39:37.540 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:39:37.540 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:39:47.555 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:39:47.555 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:39:57.561 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:39:57.561 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:40:07.572 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:40:07.572 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:40:17.576 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:40:17.576 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:40:27.586 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:40:27.586 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:40:37.589 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:40:37.589 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:40:47.591 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:40:47.591 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:40:57.608 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:40:57.608 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:41:07.612 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:41:07.612 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:41:17.625 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:41:17.625 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:41:27.630 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:41:27.631 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:41:37.642 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:41:37.642 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:41:47.657 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:41:47.657 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:41:57.668 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:41:57.668 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:42:07.679 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:42:07.680 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:42:17.691 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:42:17.691 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:42:27.703 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:42:27.704 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:42:37.708 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:42:37.708 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:42:47.713 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:42:47.713 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:42:57.716 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:42:57.716 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:43:07.723 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:43:07.723 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:43:17.736 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:43:17.736 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:43:27.746 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:43:27.746 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:43:37.761 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:43:37.761 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:43:47.775 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:43:47.775 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:43:57.779 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:43:57.779 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:44:07.785 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:44:07.785 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:44:17.789 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:44:17.789 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:44:27.803 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:44:27.803 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:44:37.810 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:44:37.810 W-00    Sending a 200 response (2 bytes)
+2024-12-09 22:44:47.815 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 22:44:47.816 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:03:52.830 main  Flame coordinator (v1.5 Jan 1 2023) starting on port 9000
+2024-12-09 23:03:52.841 main  Webserver (v1.7 Dec 31 2022) starting on port 9000
+2024-12-09 23:03:53.425 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:03:53.433 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:04:03.446 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:04:03.447 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:04:13.450 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:04:13.451 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:04:23.458 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:04:23.458 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:04:33.472 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:04:33.473 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:04:36.015 W-01  Received a POST request for /submit?class=cis5550.jobs.Indexer (on host 'default')
+2024-12-09 23:04:36.016 W-01  New job submitted; main class is cis5550.jobs.Indexer
+2024-12-09 23:04:36.053 W-01    JAR upload #1: OK
+2024-12-09 23:04:36.175 W-01    Operation completed and returned as RDD #1
+2024-12-09 23:04:36.194 W-01    Operation completed and returned as RDD #2
+2024-12-09 23:04:36.227 W-01    Operation completed and returned as RDD #3
+2024-12-09 23:04:36.260 W-01    Operation completed and returned as RDD #4
+2024-12-09 23:04:36.282 W-01    Operation completed and returned as RDD #5
+2024-12-09 23:04:36.311 W-01    Operation completed and returned as RDD #6
+2024-12-09 23:04:36.330 W-01    Operation completed and returned as RDD #7
+2024-12-09 23:04:36.366 W-01    Operation completed and returned as RDD #8
+2024-12-09 23:04:36.391 W-01    Operation completed and returned as RDD #9
+2024-12-09 23:04:36.407 W-01    Operation completed and returned as RDD #10
+2024-12-09 23:04:36.417 W-01    Sending a 200 response (36 bytes)
+2024-12-09 23:04:36.456 W-02  Received a POST request for /submit?class=cis5550.jobs.PageRank&arg1=0.001 (on host 'default')
+2024-12-09 23:04:36.456 W-02  New job submitted; main class is cis5550.jobs.PageRank
+2024-12-09 23:04:36.459 W-02    JAR upload #1: OK
+2024-12-09 23:04:36.478 W-02    Operation completed and returned as RDD #1
+2024-12-09 23:04:36.488 W-02    Operation completed and returned as RDD #2
+2024-12-09 23:04:36.503 W-02    Operation completed and returned as RDD #3
+2024-12-09 23:04:36.513 W-02    Operation completed and returned as RDD #4
+2024-12-09 23:04:36.525 W-02    Operation completed and returned as RDD #5
+2024-12-09 23:04:36.537 W-02    Operation completed and returned as RDD #6
+2024-12-09 23:04:36.572 W-02    Operation completed and returned as RDD #7
+2024-12-09 23:04:36.592 W-02    Operation completed and returned as RDD #8
+2024-12-09 23:04:36.621 W-02    Operation completed and returned as RDD #9
+2024-12-09 23:04:36.631 W-02    Operation completed and returned as RDD #10
+2024-12-09 23:04:36.648 W-02    Operation completed and returned as RDD #11
+2024-12-09 23:04:36.658 W-02    Operation completed and returned as RDD #12
+2024-12-09 23:04:36.667 W-02    Operation completed and returned as RDD #13
+2024-12-09 23:04:36.675 W-02    Operation completed and returned as RDD #14
+2024-12-09 23:04:36.692 W-02    Operation completed and returned as RDD #15
+2024-12-09 23:04:36.702 W-02    Operation completed and returned as RDD #16
+2024-12-09 23:04:36.715 W-02    Operation completed and returned as RDD #17
+2024-12-09 23:04:36.726 W-02    Operation completed and returned as RDD #18
+2024-12-09 23:04:36.736 W-02    Operation completed and returned as RDD #19
+2024-12-09 23:04:36.744 W-02    Operation completed and returned as RDD #20
+2024-12-09 23:04:36.762 W-02    Operation completed and returned as RDD #21
+2024-12-09 23:04:36.770 W-02    Operation completed and returned as RDD #22
+2024-12-09 23:04:36.782 W-02    Operation completed and returned as RDD #23
+2024-12-09 23:04:36.792 W-02    Operation completed and returned as RDD #24
+2024-12-09 23:04:36.801 W-02    Operation completed and returned as RDD #25
+2024-12-09 23:04:36.809 W-02    Operation completed and returned as RDD #26
+2024-12-09 23:04:36.824 W-02    Operation completed and returned as RDD #27
+2024-12-09 23:04:36.834 W-02    Operation completed and returned as RDD #28
+2024-12-09 23:04:36.845 W-02    Operation completed and returned as RDD #29
+2024-12-09 23:04:36.853 W-02    Operation completed and returned as RDD #30
+2024-12-09 23:04:36.863 W-02    Operation completed and returned as RDD #31
+2024-12-09 23:04:36.871 W-02    Operation completed and returned as RDD #32
+2024-12-09 23:04:36.890 W-02    Operation completed and returned as RDD #33
+2024-12-09 23:04:36.901 W-02    Operation completed and returned as RDD #34
+2024-12-09 23:04:36.911 W-02    Operation completed and returned as RDD #35
+2024-12-09 23:04:36.924 W-02    Operation completed and returned as RDD #36
+2024-12-09 23:04:36.937 W-02    Operation completed and returned as RDD #37
+2024-12-09 23:04:36.948 W-02    Operation completed and returned as RDD #38
+2024-12-09 23:04:36.968 W-02    Operation completed and returned as RDD #39
+2024-12-09 23:04:36.980 W-02    Operation completed and returned as RDD #40
+2024-12-09 23:04:36.991 W-02    Operation completed and returned as RDD #41
+2024-12-09 23:04:37.003 W-02    Operation completed and returned as RDD #42
+2024-12-09 23:04:37.014 W-02    Operation completed and returned as RDD #43
+2024-12-09 23:04:37.023 W-02    Operation completed and returned as RDD #44
+2024-12-09 23:04:37.046 W-02    Operation completed and returned as RDD #45
+2024-12-09 23:04:37.055 W-02    Operation completed and returned as RDD #46
+2024-12-09 23:04:37.070 W-02    Operation completed and returned as RDD #47
+2024-12-09 23:04:37.082 W-02    Operation completed and returned as RDD #48
+2024-12-09 23:04:37.089 W-02    Operation completed and returned as RDD #49
+2024-12-09 23:04:37.097 W-02    Operation completed and returned as RDD #50
+2024-12-09 23:04:37.113 W-02    Operation completed and returned as RDD #51
+2024-12-09 23:04:37.120 W-02    Operation completed and returned as RDD #52
+2024-12-09 23:04:37.131 W-02    Operation completed and returned as RDD #53
+2024-12-09 23:04:37.138 W-02    Operation completed and returned as RDD #54
+2024-12-09 23:04:37.149 W-02    Operation completed and returned as RDD #55
+2024-12-09 23:04:37.156 W-02    Operation completed and returned as RDD #56
+2024-12-09 23:04:37.174 W-02    Operation completed and returned as RDD #57
+2024-12-09 23:04:37.184 W-02    Operation completed and returned as RDD #58
+2024-12-09 23:04:37.194 W-02    Operation completed and returned as RDD #59
+2024-12-09 23:04:37.205 W-02    Operation completed and returned as RDD #60
+2024-12-09 23:04:37.214 W-02    Operation completed and returned as RDD #61
+2024-12-09 23:04:37.221 W-02    Operation completed and returned as RDD #62
+2024-12-09 23:04:37.236 W-02    Operation completed and returned as RDD #63
+2024-12-09 23:04:37.245 W-02    Operation completed and returned as RDD #64
+2024-12-09 23:04:37.256 W-02    Operation completed and returned as RDD #65
+2024-12-09 23:04:37.265 W-02    Operation completed and returned as RDD #66
+2024-12-09 23:04:37.273 W-02    Operation completed and returned as RDD #67
+2024-12-09 23:04:37.280 W-02    Operation completed and returned as RDD #68
+2024-12-09 23:04:37.294 W-02    Operation completed and returned as RDD #69
+2024-12-09 23:04:37.302 W-02    Operation completed and returned as RDD #70
+2024-12-09 23:04:37.310 W-02    Operation completed and returned as RDD #71
+2024-12-09 23:04:37.318 W-02    Operation completed and returned as RDD #72
+2024-12-09 23:04:37.327 W-02    Operation completed and returned as RDD #73
+2024-12-09 23:04:37.333 W-02    Operation completed and returned as RDD #74
+2024-12-09 23:04:37.347 W-02    Operation completed and returned as RDD #75
+2024-12-09 23:04:37.354 W-02    Operation completed and returned as RDD #76
+2024-12-09 23:04:37.365 W-02    Operation completed and returned as RDD #77
+2024-12-09 23:04:37.373 W-02    Operation completed and returned as RDD #78
+2024-12-09 23:04:37.383 W-02    Operation completed and returned as RDD #79
+2024-12-09 23:04:37.390 W-02    Operation completed and returned as RDD #80
+2024-12-09 23:04:37.412 W-02    Operation completed and returned as RDD #81
+2024-12-09 23:04:37.413 W-02    Sending a 200 response (36 bytes)
+2024-12-09 23:04:37.429 W-03  Received a POST request for /submit?class=cis5550.jobs.Ranker&arg1=apples+bananas+the+figs (on host 'default')
+2024-12-09 23:04:37.429 W-03  New job submitted; main class is cis5550.jobs.Ranker
+2024-12-09 23:04:37.432 W-03    JAR upload #1: OK
+2024-12-09 23:04:37.435 W-03    Ranker Run
+2024-12-09 23:04:37.435 W-03    trying to run query apples
+2024-12-09 23:04:37.449 W-03    Operation completed and returned as RDD #1
+2024-12-09 23:04:37.457 W-03    Operation completed and returned as RDD #2
+2024-12-09 23:04:37.467 W-03    Operation completed and returned as RDD #3
+2024-12-09 23:04:37.475 W-03    Operation completed and returned as RDD #4
+2024-12-09 23:04:37.486 W-03    Operation completed and returned as RDD #5
+2024-12-09 23:04:37.496 W-03    Operation completed and returned as RDD #6
+2024-12-09 23:04:37.505 W-03    Operation completed and returned as RDD #7
+2024-12-09 23:04:37.513 W-03    Operation completed and returned as RDD #8
+2024-12-09 23:04:37.521 W-03    Operation completed and returned as RDD #9
+2024-12-09 23:04:37.529 W-03    Operation completed and returned as RDD #10
+2024-12-09 23:04:37.537 W-03    Operation completed and returned as RDD #11
+2024-12-09 23:04:37.537 W-03    trying to run query bananas
+2024-12-09 23:04:37.545 W-03    Operation completed and returned as RDD #12
+2024-12-09 23:04:37.552 W-03    Operation completed and returned as RDD #13
+2024-12-09 23:04:37.559 W-03    Operation completed and returned as RDD #14
+2024-12-09 23:04:37.566 W-03    Operation completed and returned as RDD #15
+2024-12-09 23:04:37.575 W-03    Operation completed and returned as RDD #16
+2024-12-09 23:04:37.582 W-03    Operation completed and returned as RDD #17
+2024-12-09 23:04:37.591 W-03    Operation completed and returned as RDD #18
+2024-12-09 23:04:37.601 W-03    Operation completed and returned as RDD #19
+2024-12-09 23:04:37.608 W-03    Operation completed and returned as RDD #20
+2024-12-09 23:04:37.616 W-03    Operation completed and returned as RDD #21
+2024-12-09 23:04:37.622 W-03    Operation completed and returned as RDD #22
+2024-12-09 23:04:37.630 W-03    Operation completed and returned as RDD #23
+2024-12-09 23:04:37.631 W-03    trying to run query figs
+2024-12-09 23:04:37.643 W-03    Operation completed and returned as RDD #24
+2024-12-09 23:04:37.651 W-03    Operation completed and returned as RDD #25
+2024-12-09 23:04:37.661 W-03    Operation completed and returned as RDD #26
+2024-12-09 23:04:37.667 W-03    Operation completed and returned as RDD #27
+2024-12-09 23:04:37.676 W-03    Operation completed and returned as RDD #28
+2024-12-09 23:04:37.684 W-03    Operation completed and returned as RDD #29
+2024-12-09 23:04:37.690 W-03    Operation completed and returned as RDD #30
+2024-12-09 23:04:37.698 W-03    Operation completed and returned as RDD #31
+2024-12-09 23:04:37.704 W-03    Operation completed and returned as RDD #32
+2024-12-09 23:04:37.711 W-03    Operation completed and returned as RDD #33
+2024-12-09 23:04:37.716 W-03    Operation completed and returned as RDD #34
+2024-12-09 23:04:37.723 W-03    Operation completed and returned as RDD #35
+2024-12-09 23:04:37.728 W-03    Sending a 200 response (36 bytes)
+2024-12-09 23:04:43.480 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:04:43.480 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:04:53.496 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:04:53.497 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:05:03.511 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:05:03.512 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:05:13.518 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:05:13.518 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:05:23.527 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:05:23.527 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:05:33.541 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:05:33.541 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:05:43.551 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:05:43.551 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:05:53.553 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:05:53.553 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:06:03.563 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:06:03.563 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:06:13.569 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:06:13.569 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:06:23.581 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:06:23.582 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:06:33.590 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:06:33.590 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:06:43.592 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:06:43.593 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:06:53.605 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:06:53.605 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:07:03.613 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:07:03.613 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:07:10.638 W-04  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:10.638 W-04    Sending a 200 response (2 bytes)
+2024-12-09 23:07:12.388 W-05  Received a POST request for /submit?class=cis5550.jobs.Indexer (on host 'default')
+2024-12-09 23:07:12.388 W-05  New job submitted; main class is cis5550.jobs.Indexer
+2024-12-09 23:07:12.390 W-05    JAR upload #1: OK
+2024-12-09 23:07:12.390 W-05    JAR upload #2: OK
+2024-12-09 23:07:12.405 W-05    Operation completed and returned as RDD #1
+2024-12-09 23:07:12.418 W-05    Operation completed and returned as RDD #2
+2024-12-09 23:07:12.447 W-05    Operation completed and returned as RDD #3
+2024-12-09 23:07:12.478 W-05    Operation completed and returned as RDD #4
+2024-12-09 23:07:12.500 W-05    Operation completed and returned as RDD #5
+2024-12-09 23:07:12.548 W-05    Operation completed and returned as RDD #6
+2024-12-09 23:07:12.572 W-05    Operation completed and returned as RDD #7
+2024-12-09 23:07:12.623 W-05    Operation completed and returned as RDD #8
+2024-12-09 23:07:12.648 W-05    Operation completed and returned as RDD #9
+2024-12-09 23:07:12.666 W-05    Operation completed and returned as RDD #10
+2024-12-09 23:07:12.667 W-05    Sending a 200 response (36 bytes)
+2024-12-09 23:07:13.620 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:07:13.620 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:07:15.651 W-06  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:15.651 W-06    Sending a 200 response (2 bytes)
+2024-12-09 23:07:20.654 W-07  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:20.654 W-07    Sending a 200 response (2 bytes)
+2024-12-09 23:07:23.628 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:07:23.628 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:07:25.666 W-08  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:25.666 W-08    Sending a 200 response (2 bytes)
+2024-12-09 23:07:30.675 W-09  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:30.676 W-09    Sending a 200 response (2 bytes)
+2024-12-09 23:07:33.636 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:07:33.636 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:07:35.687 W-10  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:35.688 W-10    Sending a 200 response (2 bytes)
+2024-12-09 23:07:40.693 W-11  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:40.693 W-11    Sending a 200 response (2 bytes)
+2024-12-09 23:07:43.641 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:07:43.641 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:07:45.697 W-12  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:45.697 W-12    Sending a 200 response (2 bytes)
+2024-12-09 23:07:50.705 W-13  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:50.705 W-13    Sending a 200 response (2 bytes)
+2024-12-09 23:07:53.649 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:07:53.649 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:07:55.711 W-14  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:07:55.711 W-14    Sending a 200 response (2 bytes)
+2024-12-09 23:08:00.723 W-15  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:00.723 W-15    Sending a 200 response (2 bytes)
+2024-12-09 23:08:03.653 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:08:03.653 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:08:05.735 W-16  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:05.735 W-16    Sending a 200 response (2 bytes)
+2024-12-09 23:08:10.744 W-17  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:10.745 W-17    Sending a 200 response (2 bytes)
+2024-12-09 23:08:13.666 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:08:13.666 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:08:15.747 W-18  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:15.747 W-18    Sending a 200 response (2 bytes)
+2024-12-09 23:08:20.763 W-19  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:20.763 W-19    Sending a 200 response (2 bytes)
+2024-12-09 23:08:23.673 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:08:23.674 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:08:25.778 W-20  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:25.778 W-20    Sending a 200 response (2 bytes)
+2024-12-09 23:08:30.791 W-21  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:30.791 W-21    Sending a 200 response (2 bytes)
+2024-12-09 23:08:33.685 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:08:33.685 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:08:35.799 W-23  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:35.799 W-23    Sending a 200 response (2 bytes)
+2024-12-09 23:08:40.812 W-24  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:40.812 W-24    Sending a 200 response (2 bytes)
+2024-12-09 23:08:43.694 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:08:43.694 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:08:45.820 W-25  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:45.820 W-25    Sending a 200 response (2 bytes)
+2024-12-09 23:08:50.826 W-26  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:50.827 W-26    Sending a 200 response (2 bytes)
+2024-12-09 23:08:53.696 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-09 23:08:53.696 W-00    Sending a 200 response (2 bytes)
+2024-12-09 23:08:55.833 W-22  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:08:55.833 W-22    Sending a 200 response (2 bytes)
+2024-12-09 23:09:00.845 W-27  Received a GET request for /ping?id=mkqyf&port=9001 (on host 'default')
+2024-12-09 23:09:00.846 W-27    Sending a 200 response (2 bytes)
+2024-12-10 01:22:46.163 main  Flame coordinator (v1.5 Jan 1 2023) starting on port 9000
+2024-12-10 01:22:46.170 main  Webserver (v1.7 Dec 31 2022) starting on port 9000
+2024-12-10 01:22:46.495 W-00  Received a GET request for /ping?id=9001&port=9001 (on host 'default')
+2024-12-10 01:22:46.502 W-00    Sending a 200 response (2 bytes)
