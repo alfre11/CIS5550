@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Fa24-CIS5550-Project-sharders">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/indexer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/24fa-CIS5550-aywang71.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pagerank.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

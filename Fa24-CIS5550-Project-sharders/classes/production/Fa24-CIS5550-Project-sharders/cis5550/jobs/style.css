@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.search-container, .results-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.search-container button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-container button:hover {
+    background-color: #0056b3;
+}
+.pagination {
+    margin-top: 20px;
+}
+.pagination button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+.pagination button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Align items side by side */
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.main-container {
+    flex: 3;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-left: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+.sidebar ul li:hover {
+    color: #0056b3;
+}

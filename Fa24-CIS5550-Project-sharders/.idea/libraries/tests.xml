@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="tests">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tests/flame-maptopair.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tests/flame-flatmap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tests/flame-foldbykey.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tests/flame-collect.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tests/flame-output.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

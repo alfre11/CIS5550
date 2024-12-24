@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sharders Search Engine</title>
+
+</head>
+<body>
+<h1>Sharders Search</h1>
+<div class="container">
+    <div class="main-container">
+        <div class="search-container">
+            <input type="text" placeholder="Search..." id="searchInput" maxlength="240">
+            <button onclick="performSearch()">Search</button>
+        </div>
+        <div id="loadingSpinner" style="display: none;">
+            <img src="/src/cis5550/jobs/Gifs/loadinggif.gif" alt="Loading...">
+        </div>
+
+        <div class="results-container" id="resultsContainer">
+            <!-- Search results will be displayed here -->
+        </div>
+        <div class="pagination" id="paginationContainer">
+            <!-- Pagination buttons will be displayed here -->
+        </div>
+
+    </div>
+    <div class="sidebar" id="sidebar">
+        <h2>Previous Queries</h2>
+        <ul id="searchHistory">
+
+        </ul>
+    </div>
+
+</div>
+<script src="Js.js"></script>
+</body>
+</html>
